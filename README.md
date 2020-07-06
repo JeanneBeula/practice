@@ -1,1 +1,3 @@
-### Itelligent Parking System
+ Itelligent Parking System
+
+ The Intelligent Parking System is a system  that  enables customers/drivers to reserve a parking  space. It  also allows  the customers/drivers to view the parking status  in Kigali. We are developing this system because of the congestion and collision of  the vehicle,  this  system is  going to be developed to solve such problems by designing a web based system that will enable the customers/drivers to make a reservation of available parking space in Kigali.
