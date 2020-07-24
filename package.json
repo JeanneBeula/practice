@@ -4,7 +4,7 @@
   "description": "Itelligent Parking System",
   "main": "index.js",
   "scripts": {
-    "build" : "babel index.js --out-file index-compiled.js",
+    "build": "babel index.js --out-file index-compiled.js",
     "dev": "nodemon --exec babel-node index.js"
   },
   "repository": {
@@ -18,15 +18,47 @@
   },
   "homepage": "https://github.com/JeanneBeula/practice#readme",
   "dependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.7.6",
+    "@hapi/joi": "^15.0.3",
+    "@hapi/joi-date": "^2.0.1",
+    "babel-eslint": "^10.0.3",
+    "babel-node": "0.0.1-security",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "twilio": "^3.48.1"
+    "joi": "^17.1.1",
+    "joi-date-extensions": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.4.2",
+    "nodemon": "^2.0.1",
+    "nyc": "^15.0.1",
+    "path": "^0.12.7",
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "eslint": "^7.5.0",
-    "nodemon": "^2.0.4"
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.13.4"
   }
 }
